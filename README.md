@@ -33,3 +33,11 @@ Machine learning online course from Andrew Ng.
 - Programming Exercise 6: Support Vector Machines
 - Programming Exercise 7: K-means Clustering and Principal Component Analysis
 - Programming Exercise 8: Anomaly Detection and Recommender Systems
+
+### videos
+
+https://pan.baidu.com/s/1n2zg0tW2RA_4HGIgZsuk3w 00yr
+
+### additional materials (in Chinese)
+
+https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes
