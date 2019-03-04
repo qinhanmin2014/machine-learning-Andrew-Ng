@@ -25,7 +25,7 @@ Machine learning online course from Andrew Ng.
 
 ### homework 
 
-- Programming Exercise 1: Linear Regression
+- Programming Exercise 1: Linear Regression [[python version](https://nbviewer.jupyter.org/github/qinhanmin2014/machine-learning-Andrew-Ng/blob/master/homework%20%28Python%29/ex1/ex1%20Linear%20Regression.ipynb)]
 - Programming Exercise 2: Logistic Regression
 - Programming Exercise 3: Multi-class Classification and Neural Networks
 - Programming Exercise 4: Neural Networks Learning
