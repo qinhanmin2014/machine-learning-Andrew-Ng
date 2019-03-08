@@ -11799,7 +11799,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1-Logistic-Regression">1 Logistic Regression<a class="anchor-link" href="#1-Logistic-Regression">&#182;</a></h3>
+<h2 id="1-Logistic-Regression">1 Logistic Regression<a class="anchor-link" href="#1-Logistic-Regression">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13412,10 +13412,9 @@ P06Usn9IcVPaKcBX4+OuAN5GVAv6gaQHiQYTfNHMXiJaImCOpBW1nfKS+iQNAucAF0kalLRbm6/D
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>$$J(\theta) = \frac{1}{m}[\sum<em>{i=1}^m
-    {-y^{(i)} \log{h</em>{\theta}}(x^{(i)}) - (1 - y^{(i)}) \log{(1 - h_{\theta}}(x^{(i)}))}]</p>
-
-<pre><code>+ \frac{\lambda}{2m}\sum_{j=1}^n{\theta_j^2}$$</code></pre>
+<p>$$J(\theta) = \frac{1}{m}[\sum_{i=1}^m
+    {-y^{(i)} \log{h_{\theta}}(x^{(i)}) - (1 - y^{(i)}) \log{(1 - h_{\theta}}(x^{(i)}))}] +
+    \frac{\lambda}{2m}\sum_{j=1}^n{\theta_j^2}$$</p>
 
 </div>
 </div>
@@ -13434,10 +13433,9 @@ P06Usn9IcVPaKcBX4+OuAN5GVAv6gaQHiQYTfNHMXiJaImCOpBW1nfKS+iQNAucAF0kalLRbm6/D
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>$$\frac{\partial J(\theta)}{\partial \theta<em>j} =
-    (\frac{1}{m} \sum</em>{i=1}^m{(h_\theta(x^{(i)}) - y^{(i)}) x^{(i)}_j})</p>
-
-<pre><code>+ \frac{\lambda}{m}\theta_j \quad (j \neq 0)$$</code></pre>
+<p>$$\frac{\partial J(\theta)}{\partial \theta_j} =
+    (\frac{1}{m} \sum_{i=1}^m{(h_\theta(x^{(i)}) - y^{(i)}) x^{(i)}_j}) +
+    \frac{\lambda}{m}\theta_j \quad (j \neq 0)$$</p>
 
 </div>
 </div>
